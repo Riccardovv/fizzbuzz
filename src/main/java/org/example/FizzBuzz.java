@@ -38,10 +38,10 @@ public class FizzBuzz {
             print.append("Fizz");
         }
         if (num%5==0){
-            print.append(" Buzz");
+            print.append("Buzz");
         }
 
-        print.append("\n");
+        //print.append("\n");
         //System.out.print(print);
         return print.toString();
     }
